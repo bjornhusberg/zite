@@ -1,0 +1,29 @@
+.logo {
+  display: none;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.logo img {
+  margin-right: 100%;
+  margin-left: 100%;
+  zoom: 0.1;
+}
+
+.contact {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #555555;
+  text-align: right;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  width: 100%;
+}
+
+.contact a, .contact a:link, .contact a:visited, .contact a:hover, .contact a:active {
+  color: #555555;
+  text-decoration: none;
+}
