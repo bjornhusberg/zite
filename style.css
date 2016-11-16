@@ -1,4 +1,4 @@
-.logo {
+.zite-logo {
   display: none;
   position: absolute;
   top: 40%;
@@ -7,10 +7,15 @@
   text-align: center;
 }
 
-.logo img {
-  margin-right: 100%;
-  margin-left: 100%;
+.zite-logo .zite-logo-letter {
+  display:inline-block;
+  position:relative;
+  width:98px;
+  height:98px;
+  background:#45b3df;
+  border-radius:6px;
   zoom: 0.1;
+  margin:0 100%;
 }
 
 .contact {

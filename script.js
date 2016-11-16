@@ -1,10 +1,10 @@
 
 $(document).ready(function() {
-  $( ".logo img" ).animate({
-      "margin-right": 0,
+  $( ".zite-logo-letter" ).animate({
+      "margin-right": 4,
       "margin-left": 0,
-      zoom: 0.5
+      zoom: 1
     }, { queue: false, duration: 1000});
-  $( ".logo" )
+  $( ".zite-logo" )
   .fadeIn({queue: false, duration: 1000});
 });
