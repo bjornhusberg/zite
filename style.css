@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-.zite-logo .zite-logo-letter {
+.zite-logo-letter {
   display:inline-block;
   position:relative;
   width:98px;
@@ -16,6 +16,88 @@
   border-radius:6px;
   zoom: 0.1;
   margin:0 100%;
+}
+
+.zite-logo-box {
+  position:absolute;
+  bottom:0;
+  right:0;
+  width:56px;
+  height:70px;
+  background:#fff;
+}
+
+.zite-logo-left-arrow {
+  position:absolute;
+  bottom:12px;
+  right:19px;
+  width:0;
+  height:0;
+  border-style:solid;
+  border-width:44px 39px 0 0; /* Overlap to prevent flickering */
+  border-color:#45b3df transparent transparent transparent;
+  line-height:0px;
+  _border-color:#007bff #000000 #000000 #000000;
+  _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
+
+.zite-logo-right-arrow {
+  position:absolute;
+  bottom:14px;
+  right:0;
+  width:0;
+  height:0;
+  border-style: solid;
+  border-width: 0 0 42px 37px;
+  border-color: transparent transparent #45b3df transparent;
+  line-height: 0px;
+  _border-color:#000000 #000000 #007bff #000000;
+  _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
+
+.zite-logo-i {
+  position:absolute;
+  bottom:0;
+  right:21px;
+  width:14px;
+  height:70px;
+  background:#fff
+}
+
+.zite-logo-upper {
+  position:absolute;
+  bottom:56px;
+  right:0;
+  width:54px;
+  height:14px;
+  background:#fff
+}
+
+.zite-logo-left {
+  position:absolute;
+  bottom:0;
+  right:42px;
+  width:14px;
+  height:70px;
+  background:#fff
+}
+
+.zite-logo-lower {
+  position:absolute;
+  bottom:0px;
+  right:0;
+  width:56px;
+  height:14px;
+  background:#fff
+}
+
+.zite-logo-e {
+  position:absolute;
+  bottom:28px;
+  right:14px;
+  width:42px;
+  height:14px;
+  background:#fff
 }
 
 .contact {
