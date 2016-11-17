@@ -42,6 +42,7 @@ $zite-logo-size:1;
       line-height:0px;
       _border-color:$zite-logo-color #000000 #000000 #000000;
       _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+      -webkit-transform:rotate(360deg);
     }
 
     .zite-logo-right-arrow {
@@ -56,6 +57,7 @@ $zite-logo-size:1;
       line-height: 0px;
       _border-color:#000000 #000000 $zite-logo-color #000000;
       _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+      -webkit-transform:rotate(360deg);
     }
 
     .zite-logo-i {
