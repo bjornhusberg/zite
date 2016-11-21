@@ -1,7 +1,8 @@
 //$zite-logo-color: #45b3df;
+
+$zite-logo-size:14px;
 $zite-logo-color: #469cbf;
-$zite-logo-bgcolor: #fff;
-$zite-logo-size:1;
+$zite-logo-radius:6/14*$zite-logo-size;
 
 .zite-logo {
   display: none;
@@ -14,30 +15,105 @@ $zite-logo-size:1;
   .zite-logo-letter {
     display:inline-block;
     position:relative;
-    width:98px * $zite-logo-size;
-    height:98px * $zite-logo-size;
-    background:$zite-logo-color;
-    border-radius:6px * $zite-logo-size;
+    width:7 * $zite-logo-size;
+    height:7 * $zite-logo-size;
     zoom: 0.1;
     margin:0 100%;
 
-    .zite-logo-box {
+    .zite-logo-top {
       position:absolute;
-      bottom:0;
-      right:0;
-      width:56px * $zite-logo-size;
-      height:70px * $zite-logo-size;
-      background:$zite-logo-bgcolor;
+      top:0;
+      left:0;
+      width:7 * $zite-logo-size;
+      height:2 * $zite-logo-size;
+      background:$zite-logo-color;
+      border-radius:$zite-logo-radius $zite-logo-radius 0 0;
     }
 
-    .zite-logo-left-arrow {
+    .zite-logo-left {
       position:absolute;
-      bottom:12px * $zite-logo-size;
-      right:19px * $zite-logo-size;
+      top:2 * $zite-logo-size - 1px;
+      left:0;
+      width:3 * $zite-logo-size;
+      height:5 * $zite-logo-size + 1px;
+      background:$zite-logo-color;
+      border-radius:0 0 0 $zite-logo-radius;
+    }
+
+    .zite-logo-i-left {
+      position:absolute;
+      top:2 * $zite-logo-size - 1px;
+      left:0;
+      width:4.5 * $zite-logo-size;
+      height:5 * $zite-logo-size + 1px;
+      background:$zite-logo-color;
+      border-radius:0 0 0 $zite-logo-radius;
+    }
+
+    .zite-logo-i-right {
+      position:absolute;
+      top:2 * $zite-logo-size - 1px;
+      right:0;
+      width:1.5 * $zite-logo-size;
+      height:5 * $zite-logo-size + 1px;
+      background:$zite-logo-color;
+      border-radius:0 0 $zite-logo-radius 0;
+    }
+
+    .zite-logo-t-left {
+      position:absolute;
+      top:3 * $zite-logo-size;
+      left:3 * $zite-logo-size - 1px;
+      width:1.5 * $zite-logo-size + 1;
+      height:4 * $zite-logo-size;
+      background:$zite-logo-color;
+    }
+
+    .zite-logo-t-right {
+      position:absolute;
+      top:3 * $zite-logo-size;
+      right:0;
+      width:1.5 * $zite-logo-size;
+      height:4 * $zite-logo-size;
+      background:$zite-logo-color;
+      border-radius:0 0 $zite-logo-radius 0;
+    }
+
+    .zite-logo-e-top {
+      position:absolute;
+      top:3 * $zite-logo-size;
+      right:0;
+      width:3 * $zite-logo-size;
+      height:$zite-logo-size;
+      background:$zite-logo-color;
+    }
+
+    .zite-logo-e-right {
+      position:absolute;
+      top:4 * $zite-logo-size - 1px;
+      right:0;
+      width:$zite-logo-size;
+      height:$zite-logo-size + 2px;
+      background:$zite-logo-color;
+    }
+
+    .zite-logo-e-bottom {
+      position:absolute;
+      top:5 * $zite-logo-size;
+      right:0;
+      width:3 * $zite-logo-size;
+      height:$zite-logo-size;
+      background:$zite-logo-color;
+    }
+
+    .zite-logo-z-left {
+      position:absolute;
+      bottom:$zite-logo-size - 2px;
+      left:3 * $zite-logo-size - 1.775px;
       width:0;
       height:0;
       border-style:solid;
-      border-width:(44px * $zite-logo-size) (39px * $zite-logo-size) 0 0; /* Overlap to prevent flickering */
+      border-width:3 * $zite-logo-size + 2px 2.663 * $zite-logo-size + 2px 0 0; /* Overlap to prevent flickering */
       border-color:$zite-logo-color transparent transparent transparent;
       line-height:0px;
       _border-color:$zite-logo-color #000000 #000000 #000000;
@@ -45,64 +121,19 @@ $zite-logo-size:1;
       -webkit-transform:rotate(360deg);
     }
 
-    .zite-logo-right-arrow {
+    .zite-logo-z-right {
       position:absolute;
-      bottom:14px * $zite-logo-size;
+      bottom:$zite-logo-size;
       right:0;
       width:0;
       height:0;
       border-style: solid;
-      border-width: 0 0 (42px * $zite-logo-size) (37px * $zite-logo-size);
+      border-width: 0 0 3 * $zite-logo-size 2.663 * $zite-logo-size;
       border-color: transparent transparent $zite-logo-color transparent;
       line-height: 0px;
       _border-color:#000000 #000000 $zite-logo-color #000000;
       _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
       -webkit-transform:rotate(360deg);
-    }
-
-    .zite-logo-i {
-      position:absolute;
-      bottom:0;
-      right:21px * $zite-logo-size;
-      width:14px * $zite-logo-size;
-      height:70px * $zite-logo-size;
-      background:$zite-logo-bgcolor;
-    }
-
-    .zite-logo-upper {
-      position:absolute;
-      bottom:56px * $zite-logo-size;
-      right:0;
-      width:56px * $zite-logo-size;
-      height:14px * $zite-logo-size;
-      background:$zite-logo-bgcolor;
-    }
-
-    .zite-logo-left {
-      position:absolute;
-      bottom:0;
-      right:42px * $zite-logo-size;
-      width:14px * $zite-logo-size;
-      height:70px * $zite-logo-size;
-      background:$zite-logo-bgcolor;
-    }
-
-    .zite-logo-lower {
-      position:absolute;
-      bottom:0px;
-      right:0;
-      width:56px * $zite-logo-size;
-      height:14px * $zite-logo-size;
-      background:$zite-logo-bgcolor;
-    }
-
-    .zite-logo-e {
-      position:absolute;
-      bottom:28px * $zite-logo-size;
-      right:14px * $zite-logo-size;
-      width:42px * $zite-logo-size;
-      height:14px * $zite-logo-size;
-      background:$zite-logo-bgcolor;
     }
   }
 }

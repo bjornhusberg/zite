@@ -10,79 +10,103 @@
     position: relative;
     width: 98px;
     height: 98px;
-    background: #469cbf;
-    border-radius: 6px;
     zoom: 0.1;
     margin: 0 100%; }
-    .zite-logo .zite-logo-letter .zite-logo-box {
+    .zite-logo .zite-logo-letter .zite-logo-top {
       position: absolute;
-      bottom: 0;
+      top: 0;
+      left: 0;
+      width: 98px;
+      height: 28px;
+      background: #469cbf;
+      border-radius: 6px 6px 0 0; }
+    .zite-logo .zite-logo-letter .zite-logo-left {
+      position: absolute;
+      top: 27px;
+      left: 0;
+      width: 42px;
+      height: 71px;
+      background: #469cbf;
+      border-radius: 0 0 0 6px; }
+    .zite-logo .zite-logo-letter .zite-logo-i-left {
+      position: absolute;
+      top: 27px;
+      left: 0;
+      width: 63px;
+      height: 71px;
+      background: #469cbf;
+      border-radius: 0 0 0 6px; }
+    .zite-logo .zite-logo-letter .zite-logo-i-right {
+      position: absolute;
+      top: 27px;
       right: 0;
-      width: 56px;
-      height: 70px;
-      background: #fff; }
-    .zite-logo .zite-logo-letter .zite-logo-left-arrow {
+      width: 21px;
+      height: 71px;
+      background: #469cbf;
+      border-radius: 0 0 6px 0; }
+    .zite-logo .zite-logo-letter .zite-logo-t-left {
+      position: absolute;
+      top: 42px;
+      left: 41px;
+      width: 22px;
+      height: 56px;
+      background: #469cbf; }
+    .zite-logo .zite-logo-letter .zite-logo-t-right {
+      position: absolute;
+      top: 42px;
+      right: 0;
+      width: 21px;
+      height: 56px;
+      background: #469cbf;
+      border-radius: 0 0 6px 0; }
+    .zite-logo .zite-logo-letter .zite-logo-e-top {
+      position: absolute;
+      top: 42px;
+      right: 0;
+      width: 42px;
+      height: 14px;
+      background: #469cbf; }
+    .zite-logo .zite-logo-letter .zite-logo-e-right {
+      position: absolute;
+      top: 55px;
+      right: 0;
+      width: 14px;
+      height: 16px;
+      background: #469cbf; }
+    .zite-logo .zite-logo-letter .zite-logo-e-bottom {
+      position: absolute;
+      top: 70px;
+      right: 0;
+      width: 42px;
+      height: 14px;
+      background: #469cbf; }
+    .zite-logo .zite-logo-letter .zite-logo-z-left {
       position: absolute;
       bottom: 12px;
-      right: 19px;
+      left: 40.225px;
       width: 0;
       height: 0;
       border-style: solid;
-      border-width: 44px 39px 0 0;
+      border-width: 44px 39.282px 0 0;
       /* Overlap to prevent flickering */
       border-color: #469cbf transparent transparent transparent;
       line-height: 0px;
       _border-color: #469cbf #000000 #000000 #000000;
       _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
       -webkit-transform: rotate(360deg); }
-    .zite-logo .zite-logo-letter .zite-logo-right-arrow {
+    .zite-logo .zite-logo-letter .zite-logo-z-right {
       position: absolute;
       bottom: 14px;
       right: 0;
       width: 0;
       height: 0;
       border-style: solid;
-      border-width: 0 0 42px 37px;
+      border-width: 0 0 42px 37.282px;
       border-color: transparent transparent #469cbf transparent;
       line-height: 0px;
       _border-color: #000000 #000000 #469cbf #000000;
       _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
       -webkit-transform: rotate(360deg); }
-    .zite-logo .zite-logo-letter .zite-logo-i {
-      position: absolute;
-      bottom: 0;
-      right: 21px;
-      width: 14px;
-      height: 70px;
-      background: #fff; }
-    .zite-logo .zite-logo-letter .zite-logo-upper {
-      position: absolute;
-      bottom: 56px;
-      right: 0;
-      width: 56px;
-      height: 14px;
-      background: #fff; }
-    .zite-logo .zite-logo-letter .zite-logo-left {
-      position: absolute;
-      bottom: 0;
-      right: 42px;
-      width: 14px;
-      height: 70px;
-      background: #fff; }
-    .zite-logo .zite-logo-letter .zite-logo-lower {
-      position: absolute;
-      bottom: 0px;
-      right: 0;
-      width: 56px;
-      height: 14px;
-      background: #fff; }
-    .zite-logo .zite-logo-letter .zite-logo-e {
-      position: absolute;
-      bottom: 28px;
-      right: 14px;
-      width: 42px;
-      height: 14px;
-      background: #fff; }
 
 .contact {
   position: absolute;
